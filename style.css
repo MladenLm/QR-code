@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Lightgray);
+}
+
+.container {
+    background-color: var(--White);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    background-color: var(--White);
+    position: relative;
+    top:0;
+    left: 0;
+    transform: translate(25%, 0%);
+}
+
+p {
+    background-color: var(--White);
+    text-align: center;
+    color: var(--Lightgray);
+}
+
+h2 {
+    background-color: var(--White);
+    text-align: center;
+    color: var(--Grayishblue);
+}
+
+.img--main {
+    background-color: var(--White);
+}
+
